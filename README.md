@@ -4,14 +4,18 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**It would be good if you knew this before starting**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We are using:
+
+- [Husky](https://typicode.github.io/husky/) to run the Git Hooks;
+- [NVM](https://github.com/nvm-sh/nvm) to handle the Node versions;
 
 ## How to run this project
 
 First of all, let's configure our enviroment.
+
+You will need NVM installed on your environment. So, get the latest version here: [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 Install the `.nvmrc` Node version with the following command:
 
