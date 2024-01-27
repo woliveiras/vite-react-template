@@ -1,12 +1,30 @@
 # vite-react-template
 
-## React + TypeScript + Vite
+## <a name='ReactTypeScriptVite'></a>React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Based on default [vite react + typescript template](https://vitejs.dev/guide/).
 
-## How to use this template
+---
+
+**Table of Contents**
+
+<!-- vscode-markdown-toc -->
+
+- [React + TypeScript + Vite](#ReactTypeScriptVite)
+- [How to use this template](#Howtousethistemplate)
+- [How to run this project](#Howtorunthisproject)
+- [Running the tests](#Runningthetests)
+- [Watching tests in UI mode](#WatchingtestsinUImode)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Howtousethistemplate'></a>How to use this template
 
 You just need to click on the button `Use this template` close to the reppo stars (remember to give me a star to make me happy) and start a new repo or open in a code space.
 
@@ -29,7 +47,7 @@ Example: `VITE_EXAMPLE_VAR`.
 
 In the [App.tsx](./src/App.tsx) you can see the use of `import.meta.env` to import env variables.
 
-## How to run this project
+## <a name='Howtorunthisproject'></a>How to run this project
 
 First of all, let's configure our enviroment.
 
@@ -54,7 +72,7 @@ npm i
 npm run dev
 ```
 
-## Running the tests
+## <a name='Runningthetests'></a>Running the tests
 
 Running all tests:
 
@@ -80,7 +98,7 @@ To run the coverage, you just need this command:
 npm run coverage
 ```
 
-## Watching tests in UI mode
+## <a name='WatchingtestsinUImode'></a>Watching tests in UI mode
 
 If you don't know, we can use a UI to run our tests and check dependency graph like the following screenshots.
 
