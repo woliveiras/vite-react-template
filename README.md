@@ -11,6 +11,18 @@ We are using:
 - [Husky](https://typicode.github.io/husky/) to run the Git Hooks;
 - [NVM](https://github.com/nvm-sh/nvm) to handle the Node versions;
 
+You can update environment variables in the files:
+
+- [.env](./.env): the base env vile, the variables here will be used in all environments
+- [.env.development](./.env): the development mode, just read in your local environment (npm run dev)
+- [.env.production](./.env): the production mode, will be read in your production environment (npm run build)
+
+And you can create new variables with the prefix `VITE_`.
+
+Example: `VITE_EXAMPLE_VAR`.
+
+In the [App.tsx](./src/App.tsx) you can see the use of `import.meta.env` to import env variables.
+
 ## How to run this project
 
 First of all, let's configure our enviroment.
