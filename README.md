@@ -6,6 +6,10 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Based on default [vite react + typescript template](https://vitejs.dev/guide/).
 
+## How to use this template
+
+You just need to click on the button `Use this template` close to the reppo stars (remember to give me a star to make me happy) and start a new repo or open in a code space.
+
 **It would be good if you knew this before starting**
 
 We are using:
