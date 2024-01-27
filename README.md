@@ -48,6 +48,32 @@ npm i
 npm run dev
 ```
 
+## Running the tests
+
+Running all tests:
+
+```sh
+npm t
+```
+
+Watching all tests:
+
+```sh
+npm run test:watch
+```
+
+To watch one file, you just need to add the path in the watch command:
+
+```sh
+npm run test:watch src/components/Example/Example.test.tsx
+```
+
+To run the coverage, you just need this command:
+
+```sh
+npm run coverage
+```
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
