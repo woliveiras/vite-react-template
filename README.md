@@ -1,5 +1,7 @@
 # vite-react-template
 
+Vitejs and React starting template using Git Hooks, Vitest, and Vitest UI and react-testing-library.
+
 ## <a name='ReactTypeScriptVite'></a>React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
