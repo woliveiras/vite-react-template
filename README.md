@@ -4,6 +4,8 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Based on default [vite react + typescript template](https://vitejs.dev/guide/).
+
 **It would be good if you knew this before starting**
 
 We are using:
@@ -74,24 +76,18 @@ To run the coverage, you just need this command:
 npm run coverage
 ```
 
-## Expanding the ESLint configuration
+## Watching tests in UI mode
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+If you don't know, we can use a UI to run our tests and check dependency graph like the following screenshots.
 
-- Configure the top-level `parserOptions` property like this:
+You just need to run the command:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+```sh
+npm run test:ui
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+| Screenshots                                                        |
+| ------------------------------------------------------------------ |
+| ![Vitest UI Dashboard](.github/doc/img/vites-ui-dashboard.png)     |
+| ![Vitest UI Test File](.github/doc/img/vitest-ui-test-file.png)    |
+| ![Vitest UI Dependency Graph](.github/doc/img/vitest-ui-graph.png) |
