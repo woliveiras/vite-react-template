@@ -6,6 +6,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Based on default [vite react + typescript template](https://vitejs.dev/guide/).
 
+Maybe you will need help to create some GitHub Actions or another .github configuration. So, you can check my other template for it: [woliveiras/.github](https://github.com/woliveiras/.github)
+
 ---
 
 **Table of Contents**
@@ -26,7 +28,7 @@ Based on default [vite react + typescript template](https://vitejs.dev/guide/).
 
 ## <a name='Howtousethistemplate'></a>How to use this template
 
-You just need to click on the button `Use this template` close to the reppo stars (remember to give me a star to make me happy) and start a new repo or open in a code space.
+You just need to click on the button `Use this template` close to the reppo stars (remember to give me a star to make me happy) and start a new repo or open it in code space.
 
 **It would be good if you knew this before starting**
 
@@ -65,7 +67,7 @@ After that, you can use it with:
 nvm use
 ```
 
-Now, we are able to install the application dependencies and start our dev-server with the commands below:
+Now, we can install the application dependencies and start our dev-server with the commands below:
 
 ```sh
 npm i
